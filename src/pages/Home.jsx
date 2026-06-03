@@ -394,7 +394,7 @@ console.log("Update result:", updateError, "progress.id:", progress.id, "finalUp
 
       {/* Background — uses bg-background so it respects the active theme */}
       <div className="fixed inset-0 -z-20 bg-background" />
-      <FloatingStickers part2Unlocked={part2Available} goldActive={!!(progress.gold_theme_until && new Date(progress.gold_theme_until) > new Date())} />
+    
 
       {bursts.map(b => <StarBurst key={b.id} x={b.x} y={b.y} />)}
 
