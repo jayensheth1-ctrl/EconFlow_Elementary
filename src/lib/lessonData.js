@@ -1,311 +1,202 @@
 export const units = [
   {
     id: "unit-1",
-    title: "The Magic of Compound Interest",
-    description: "Learn how money grows over time",
+    title: "Money Basics & Choices",
+    description: "Learn what money is and how we use it",
     color: "from-emerald-400 to-emerald-600",
     lessons: [
       {
         id: "1-1",
-        title: "What is Interest?",
-        studyBrief: "Interest is the cost of borrowing money — or the reward for saving it. Simple interest is calculated only on the original amount you deposited (called the 'principal'). Compound interest, however, is calculated on both the principal AND any interest already earned. This means your money grows faster and faster over time. Albert Einstein reportedly called compound interest the 'eighth wonder of the world' because of this powerful snowball effect.",
+        title: "What is Money?",
+        studyBrief: "Long ago, people didn't use paper bills or metal coins. Instead, they traded useful or beautiful items like shells, beads, or even salt! Today, we use official coins and dollar bills to buy the things we need and want. Money is a tool that everyone agrees to use because it makes trading easy. When you do a chore and earn a dollar, that bill holds value because you can take it to a store and swap it for a toy or a snack.",
         questions: [
           {
             type: "multiple_choice",
-            question: "What is simple interest?",
+            question: "What do people use money for today?",
             options: [
-              "Interest earned only on the original principal",
-              "Interest earned on interest",
-              "A type of bank fee",
-              "Money you owe the government"
+              "To buy the things they need and want",
+              "To play board games only",
+              "To replace food completely",
+              "To decorate their bedrooms"
             ],
             correct: 0,
-            explanation: "Simple interest is calculated only on the original amount (principal) you deposited or borrowed."
+            explanation: "Money is a helpful tool that we use to buy goods and services every day."
           },
           {
             type: "true_false",
-            question: "Compound interest earns interest on previously earned interest.",
+            question: "Long ago, people sometimes used items like shells or salt as money.",
             correct: true,
-            explanation: "That's exactly what makes compound interest so powerful — your interest earns interest!"
+            explanation: "True! Before paper bills were invented, people traded useful or pretty objects."
           },
           {
             type: "multiple_choice",
-            question: "If you invest $100 at 10% simple interest, how much do you have after 1 year?",
-            options: ["$110", "$100", "$120", "$90"],
+            question: "If you wash your family's car and earn $5, what are you doing?",
+            options: ["Earning money", "Paying taxes", "Borrowing money", "Losing money"],
             correct: 0,
-            explanation: "$100 × 10% = $10 interest. $100 + $10 = $110."
+            explanation: "When you do work and get paid for it, you are earning money."
           },
           {
             type: "word_bank",
-            question: "Compound interest makes your money grow ___ over time because you earn interest on ___.",
-            blanks: ["faster", "interest"],
-            options: ["faster", "slower", "interest", "taxes", "debt"],
-            explanation: "Compound interest accelerates growth because you earn interest on your accumulated interest."
+            question: "Today we use paper ___ and metal ___ to buy things at the store.",
+            blanks: ["bills", "coins"],
+            options: ["bills", "coins", "shells", "leaves", "toys"],
+            explanation: "Our modern currency is made up of printed paper bills and stamped metal coins."
           },
-          {
+         {
             type: "true_false",
-            question: "Albert Einstein reportedly called compound interest the 'eighth wonder of the world.'",
+            question: "Money only works if everyone agrees that it has value.",
             correct: true,
-            explanation: "This famous quote highlights how powerful compound interest can be for building wealth."
+            explanation: "Exactly! Money works because shopkeepers and shoppers all agree to trust its value."
           }
         ]
       },
       {
         id: "1-2",
-        title: "The Rule of 72",
-        studyBrief: "The Rule of 72 is a simple mental math shortcut that tells you approximately how long it takes to double your money at a given interest rate. You just divide 72 by your annual interest rate. For example, at 8% annual return, your money doubles in about 9 years (72 ÷ 8 = 9). At 12%, it doubles in just 6 years. This rule is useful because it lets investors quickly compare investment options without a calculator.",
+        title: "Needs vs. Wants",
+        studyBrief: "Every day we make choices about money. A 'need' is something you absolutely must have to live a safe and healthy life, like water, healthy food, a warm coat, and a place to live. A 'want' is something that is nice to have, but you can live perfectly fine without it, like video games, candy, or a skateboard. Because money is limited, it is always smart to pay for your needs before you spend money on your wants.",
         questions: [
           {
             type: "multiple_choice",
-            question: "The Rule of 72 helps you estimate how long it takes to:",
+            question: "Which of the following is a basic human need?",
             options: [
-              "Double your money",
-              "Triple your money",
-              "Lose your money",
-              "Pay off debt"
+              "Clean drinking water",
+              "A new video game console",
+              "A trip to an amusement park",
+              "A chocolate candy bar"
             ],
             correct: 0,
-            explanation: "Divide 72 by your interest rate to estimate how many years it takes to double your investment."
+            explanation: "Water is necessary for your body to stay alive and healthy, making it a true need."
           },
           {
             type: "multiple_choice",
-            question: "At 8% annual return, approximately how many years to double your money?",
-            options: ["9 years", "12 years", "6 years", "15 years"],
+            question: "Which item is considered a personal want?",
+            options: ["A toy racecar", "Warm clothes for winter", "A safe home", "Healthy dinner"],
             correct: 0,
-            explanation: "72 ÷ 8 = 9 years. The Rule of 72 gives a quick approximation."
+            explanation: "A toy is fun to play with, but you can live safely and happily without it."
           },
           {
             type: "true_false",
-            question: "At 12% interest, your money doubles in approximately 6 years.",
-            correct: true,
-            explanation: "72 ÷ 12 = 6. Correct!"
+            question: "It is a smart idea to buy your wants before paying for your needs.",
+            correct: false,
+            explanation: "False! Always take care of your important needs first so you stay safe and healthy."
           },
           {
             type: "word_bank",
-            question: "To use the Rule of 72, divide ___ by the ___ rate.",
-            blanks: ["72", "interest"],
-            options: ["72", "100", "interest", "inflation", "tax"],
-            explanation: "72 ÷ interest rate = approximate years to double your investment."
+            question: "A jacket is a ___ in the freezing winter, but a new comic book is a ___.",
+            blanks: ["need", "want"],
+            options: ["need", "want", "gift", "chore", "tax"],
+            explanation: "Staying warm keeps you healthy (need), while entertainment is just for fun (want)."
           },
           {
-            type: "multiple_choice",
-            question: "Why is the Rule of 72 useful for investors?",
-            options: [
-              "It provides a quick mental estimate",
-              "It's required by law",
-              "Banks use it to set rates",
-              "It guarantees returns"
-            ],
-            correct: 0,
-            explanation: "It's a handy mental shortcut — no calculator needed!"
+            type: "true_false",
+            question: "If you run out of money buying toys, you might not have enough for food.",
+            correct: true,
+            explanation: "True! Since money is limited, spending it on wants can leave you short on needs."
           }
         ]
       },
-      {
-        id: "1-3",
-        title: "Time Value of Money",
-        studyBrief: "The Time Value of Money (TVM) is one of the most important ideas in finance: a dollar today is worth MORE than a dollar in the future. Why? Because money you have now can be invested to earn interest and grow. Three key factors affect TVM: the interest rate (how fast money grows), inflation (which erodes purchasing power over time), and the time period involved. This concept explains why people prefer to receive money sooner rather than later.",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "What does 'time value of money' mean?",
-            options: [
-              "A dollar today is worth more than a dollar tomorrow",
-              "Time is money",
-              "Money loses value over centuries",
-              "Banks charge for your time"
-            ],
-            correct: 0,
-            explanation: "Because money can earn interest, $1 today is worth more than $1 in the future."
-          },
-          {
-            type: "true_false",
-            question: "Receiving $1,000 today is better than receiving $1,000 in 5 years (assuming you can invest it).",
-            correct: true,
-            explanation: "If you invest $1,000 today, it will grow to more than $1,000 in 5 years."
-          },
-          {
-            type: "word_bank",
-            question: "A dollar today is worth ___ than a dollar ___ because of earning potential.",
-            blanks: ["more", "tomorrow"],
-            options: ["more", "less", "tomorrow", "yesterday", "equally"],
-            explanation: "The time value of money: today's dollar can be invested to grow."
-          },
-          {
-            type: "multiple_choice",
-            question: "Which factor does NOT affect the time value of money?",
-            options: [
-              "The color of your wallet",
-              "Interest rates",
-              "Inflation",
-              "Time period"
-            ],
-            correct: 0,
-            explanation: "Interest rates, inflation, and time all affect TVM. Your wallet color? Not so much!"
-          },
-          {
-            type: "true_false",
-            question: "Inflation reduces the purchasing power of money over time.",
-            correct: true,
-            explanation: "Inflation means prices rise, so each dollar buys less in the future."
-          }
-        ]
-      }
+      
+  
     ]
   },
   {
     id: "unit-2",
-    title: "Supply, Demand & Markets",
-    description: "Understand how prices are set",
+    title: "Saving & Smart Spending",
+    description: "Discover how to grow your money",
     color: "from-blue-400 to-blue-600",
     lessons: [
       {
         id: "2-1",
-        title: "What is Supply?",
-        studyBrief: "Supply refers to the total quantity of a product or service that producers are willing and able to sell at various prices. The Law of Supply states that as prices rise, suppliers want to produce and sell more — because higher prices mean higher profits. Supply can also shift due to changes in production costs: if it becomes cheaper to produce something, more will be supplied at every price level. On a graph, this 'supply shift' moves the supply curve to the right.",
+        title: "The Piggy Bank Secret",
+        studyBrief: "Saving means keeping your money in a safe place instead of spending it right away. When you put coins into a piggy bank or a savings account at a bank, your money waits for you. If you save a little bit of money every single week, your pile grows bigger and bigger. This is called a savings habit. Saving helps you buy bigger things in the future that cost more than you have right now.",
         questions: [
           {
             type: "multiple_choice",
-            question: "Supply refers to:",
+            question: "What does it mean to save money?",
             options: [
-              "The amount of a product sellers are willing to offer at various prices",
-              "The amount consumers want to buy",
-              "The total money in an economy",
-              "Government-produced goods"
+              "Keeping your money to use later",
+              "Spending all your coins today",
+              "Throwing your bills away",
+              "Losing your wallet on purpose"
             ],
             correct: 0,
-            explanation: "Supply is the quantity of goods that producers are willing and able to sell at different price levels."
+            explanation: "Saving means pausing and protecting your money so you can use it in the future."
           },
           {
             type: "true_false",
-            question: "As prices increase, suppliers generally want to produce more.",
+            question: "If you save a small amount of money regularly, your savings will grow over time.",
             correct: true,
-            explanation: "Higher prices mean more profit, so suppliers are incentivized to produce more."
+            explanation: "Yes! Small amounts add up over time to create a big pile of savings."
           },
           {
             type: "word_bank",
-            question: "When supply goes ___ and demand stays the same, prices tend to go ___.",
-            blanks: ["up", "down"],
-            options: ["up", "down", "sideways", "nowhere", "crazy"],
-            explanation: "More supply with the same demand pushes prices lower."
+            question: "Instead of spending money today, you can ___ it for the ___.",
+            blanks: ["save", "future"],
+            options: ["save", "future", "lose", "yesterday", "forget"],
+            explanation: "Saving means looking ahead and preparing your money for future goals."
           },
           {
             type: "multiple_choice",
-            question: "What is the law of supply?",
+            question: "Why would someone want to save their money?",
             options: [
-              "Higher prices lead to higher quantity supplied",
-              "Higher prices lead to lower quantity supplied",
-              "Prices don't affect supply",
-              "Supply is always constant"
+              "To buy a bigger item later, like a bicycle",
+              "Because they hate toys",
+              "To make their wallet as heavy as possible",
+              "Because banks require you to store all cash"
             ],
             correct: 0,
-            explanation: "The law of supply states there's a positive relationship between price and quantity supplied."
+            explanation: "Saving allows you to purchase expensive things that require multiple weeks of allowance."
           },
           {
             type: "true_false",
-            question: "A decrease in production costs will shift the supply curve to the right.",
+            question: "A piggy bank is one place you can use to start a saving habit.",
             correct: true,
-            explanation: "Lower costs mean producers can supply more at every price level, shifting supply right."
+            explanation: "True! A piggy bank or a small jar is a great place to start watching your money grow."
           }
         ]
       },
       {
         id: "2-2",
-        title: "What is Demand?",
-        studyBrief: "Demand is the quantity of a good or service that consumers are willing and able to buy at various prices. The Law of Demand states that as prices fall, people buy more — there is an inverse (opposite) relationship between price and quantity demanded. Demand can shift due to external factors like weather, trends, or income changes. For example, a rainy season forecast increases demand for umbrellas even before the price changes. 'Demand' is the whole relationship; 'quantity demanded' is the specific amount at one price.",
+        title: "The Three Jars Rule",
+        studyBrief: "A great way to manage your allowance or chore money is to use three different jars labeled: Spend, Save, and Give. The 'Spend' jar is for small things you want right now, like a piece of gum. The 'Save' jar is for bigger goals, like a box of building blocks. The 'Give' jar is for helping others, like buying food for an animal shelter or helping a friend. This keeps your money organized and balanced!",
         questions: [
           {
             type: "multiple_choice",
-            question: "Demand represents:",
+            question: "What are the three jars used for in this budgeting rule?",
             options: [
-              "How much consumers are willing to buy at various prices",
-              "How much is produced",
-              "The government's needs",
-              "Total imports"
+              "Spend, Save, and Give",
+              "Eat, Sleep, and Play",
+              "Buy, Hide, and Lose",
+              "Coins, Bills, and Buttons"
             ],
             correct: 0,
-            explanation: "Demand is the quantity of goods consumers want and can afford at different prices."
+            explanation: "Dividing money into Spend, Save, and Give helps you balance your financial choices."
           },
           {
             type: "true_false",
-            question: "When the price of a product decreases, demand for it typically increases.",
-            correct: true,
-            explanation: "Lower prices make products more affordable, so people buy more — the law of demand."
-          },
-          {
-            type: "multiple_choice",
-            question: "Which would increase demand for umbrellas?",
-            options: [
-              "A rainy season forecast",
-              "A drought",
-              "A sale on sunglasses",
-              "Lower umbrella production"
-            ],
-            correct: 0,
-            explanation: "Rainy weather increases the desire for umbrellas, shifting demand right."
-          },
-          {
-            type: "word_bank",
-            question: "The law of demand says that as prices rise, the quantity demanded ___.",
-            blanks: ["decreases"],
-            options: ["decreases", "increases", "stays", "doubles", "vanishes"],
-            explanation: "There's an inverse relationship between price and quantity demanded."
-          },
-          {
-            type: "true_false",
-            question: "Demand and quantity demanded mean exactly the same thing.",
+            question: "The 'Give' jar is meant to buy things only for yourself.",
             correct: false,
-            explanation: "Demand is the entire relationship, while quantity demanded is a specific amount at a specific price."
-          }
-        ]
-      },
-      {
-        id: "2-3",
-        title: "Market Equilibrium",
-        studyBrief: "Market equilibrium is the point where the quantity of goods supplied exactly equals the quantity demanded — it's the 'sweet spot' of the market. At equilibrium, there is no surplus (excess supply) and no shortage (unmet demand). When prices are set below equilibrium, a shortage occurs because demand exceeds supply. When prices are above equilibrium, a surplus occurs. Markets naturally tend to move toward equilibrium as prices adjust up or down in response to these imbalances.",
-        questions: [
-          {
-            type: "multiple_choice",
-            question: "Market equilibrium occurs when:",
-            options: [
-              "Quantity supplied equals quantity demanded",
-              "Prices are at their highest",
-              "The government sets the price",
-              "There is no competition"
-            ],
-            correct: 0,
-            explanation: "Equilibrium is the sweet spot where buyers and sellers agree on both price and quantity."
+            explanation: "False! The Give jar is dedicated to helping other people, animals, or your community."
           },
           {
-            type: "true_false",
-            question: "A surplus occurs when supply exceeds demand at the current price.",
-            correct: true,
-            explanation: "When there's more supply than demand, unsold goods pile up — that's a surplus."
+            type: "multiple_choice",
+            question: "If you want to buy a bicycle next year, which jar should get the most money?",
+            options: ["The Save jar", "The Spend jar", "The Give jar", "The Trash jar"],
+            correct: 0,
+            explanation: "Big items that take a long time to afford belong in your long-term Save jar."
           },
           {
             type: "word_bank",
-            question: "At equilibrium, there is no ___ and no ___.",
-            blanks: ["surplus", "shortage"],
-            options: ["surplus", "shortage", "profit", "loss", "demand"],
-            explanation: "Equilibrium means the market clears — no excess supply (surplus) or unmet demand (shortage)."
-          },
-          {
-            type: "multiple_choice",
-            question: "If a product's price is below equilibrium, what happens?",
-            options: [
-              "A shortage occurs",
-              "A surplus occurs",
-              "Nothing changes",
-              "Supply increases"
-            ],
-            correct: 0,
-            explanation: "Below-equilibrium prices mean high demand but low supply, creating a shortage."
+            question: "The ___ jar is for small treats today, while the ___ jar is for helping your community.",
+            blanks: ["Spend", "Give"],
+            options: ["Spend", "Give", "Save", "Hide", "Break"],
+            explanation: "Spending handles immediate desires, while giving focuses on kindness to others."
           },
           {
             type: "true_false",
-            question: "Markets naturally tend to move toward equilibrium over time.",
+            question: "Separating your money into jars helps you make smart financial choices.",
             correct: true,
-            explanation: "Market forces (price adjustments) push toward equilibrium where supply meets demand."
+            explanation: "True! Visually dividing your money prevents you from accidentally spending it all at once."
           }
         ]
       }
@@ -313,97 +204,107 @@ export const units = [
   },
   {
     id: "unit-3",
-    title: "Personal Budgeting",
-    description: "Master your monthly finances",
+    title: "Jobs & The Community",
+    description: "See how people work together",
     color: "from-purple-400 to-purple-600",
     lessons: [
       {
         id: "3-1",
-        title: "Income vs Expenses",
-        studyBrief: "Income is the money you receive (from a job, investments, etc.), while expenses are the money you spend. Your 'gross income' is your total pay before deductions; your 'net income' (take-home pay) is what remains after taxes. Expenses fall into two types: fixed expenses (like rent or car payments) that stay the same each month, and variable expenses (like groceries or entertainment) that change. The popular 50/30/20 budgeting rule suggests spending 50% on needs, 30% on wants, and saving 20%.",
+        title: "Goods and Services",
+        studyBrief: "People in a community earn money by creating 'goods' or providing 'services.' Goods are real physical objects you can touch and hold, like a book, a loaf of bread, an apple, or a pair of shoes. Services are helpful actions that people perform for you, like a barber cutting your hair, a doctor checking your health, or a bus driver taking you to school. Both goods and services make our lives easier and better.",
         questions: [
           {
             type: "multiple_choice",
-            question: "What is net income?",
+            question: "Which of the following is an example of a physical good?",
             options: [
-              "Income after taxes and deductions",
-              "Total income before anything is taken out",
-              "Money from side jobs only",
-              "Investment returns"
+              "A shiny new bicycle",
+              "A piano lesson",
+              "A haircut at a salon",
+              "A dog-walking service"
             ],
             correct: 0,
-            explanation: "Net income (take-home pay) is what you actually receive after taxes and deductions."
+            explanation: "A bicycle is a real physical object that you can touch, making it a good."
           },
           {
             type: "true_false",
-            question: "Fixed expenses change from month to month.",
-            correct: false,
-            explanation: "Fixed expenses like rent stay the same each month. Variable expenses are the ones that change."
+            question: "A teacher helping you learn in school is providing a service.",
+            correct: true,
+            explanation: "True! Teaching is an activity or action performed to help you, which is a service."
           },
           {
             type: "word_bank",
-            question: "A budget helps you track your ___ and ___.",
-            blanks: ["income", "expenses"],
-            options: ["income", "expenses", "friends", "weather", "hobbies"],
-            explanation: "Budgeting is about understanding where your money comes from and where it goes."
+            question: "An ice cream cone is a ___ you eat, but fixing a broken car is a ___.",
+            blanks: ["good", "service"],
+            options: ["good", "service", "money", "chore", "tax"],
+            explanation: "Objects you can hold are goods, while helpful actions or skills are services."
           },
           {
             type: "multiple_choice",
-            question: "Which is a variable expense?",
-            options: ["Groceries", "Rent", "Car payment", "Insurance premium"],
+            question: "What is a service?",
+            options: [
+              "An action or job someone does to help you",
+              "Something you throw in the trash",
+              "A physical object like a toy box",
+              "A metal coin worth five cents"
+            ],
             correct: 0,
-            explanation: "Groceries vary month to month. Rent, car payments, and insurance are typically fixed."
+            explanation: "Services are tasks performed by individuals utilizing their time and skills to help others."
           },
           {
             type: "true_false",
-            question: "The 50/30/20 rule suggests 50% of income for needs, 30% for wants, and 20% for savings.",
-            correct: true,
-            explanation: "This popular budgeting guideline provides a simple framework for allocating your income."
+            question: "Shoes, pencils, and pizzas are all examples of services.",
+            correct: false,
+            explanation: "False! These are all physical items you can touch, which means they are goods."
           }
         ]
       },
       {
         id: "3-2",
-        title: "Emergency Funds",
-        studyBrief: "An emergency fund is money set aside specifically for unexpected financial crises — job loss, medical bills, or urgent car repairs. Financial experts recommend saving 3 to 6 months' worth of living expenses. The key is that this money must be easily accessible (liquid), so a high-yield savings account is ideal — NOT a long-term investment account. An emergency fund is distinct from regular savings; it should only be used for true emergencies, not wants like new gadgets or vacations.",
+        title: "Earning a Living",
+        studyBrief: "An income is the money a person receives in exchange for doing a job. Adults choose different careers—like being a chef, an engineer, a firefighter, or an artist—to earn an income. This income is then used to pay for their family's food, clothing, and housing. Incomplete chores at home can sometimes mimic this; completing your tasks responsibly might earn you a small allowance, which introduces how real-world jobs work.",
         questions: [
           {
             type: "multiple_choice",
-            question: "How many months of expenses should an emergency fund cover?",
-            options: ["3-6 months", "1 month", "12 months", "1 week"],
+            question: "What is an income?",
+            options: [
+              "The money you receive for doing a job",
+              "A list of things you want to buy",
+              "The cost of a toy at the store",
+              "A bank account password"
+            ],
             correct: 0,
-            explanation: "Financial experts recommend 3-6 months of expenses as a safety net."
+            explanation: "Income is the money flowing into your pocket as a reward for your labor or job."
           },
           {
             type: "true_false",
-            question: "An emergency fund should be kept in a hard-to-access investment account.",
-            correct: false,
-            explanation: "Emergency funds should be easily accessible — a high-yield savings account is ideal."
+            question: "Adults use their job income to pay for things like rent and groceries.",
+            correct: true,
+            explanation: "True! Job income covers both essential living expenses and fun extra items."
           },
           {
             type: "word_bank",
-            question: "An emergency fund provides a financial ___ for unexpected ___.",
-            blanks: ["cushion", "expenses"],
-            options: ["cushion", "burden", "expenses", "profits", "gifts"],
-            explanation: "It's your financial safety net for life's surprises."
+            question: "People choose a ___ to earn an ___ to support their families.",
+            blanks: ["job", "income"],
+            options: ["job", "income", "game", "allowance", "expense"],
+            explanation: "Working a regular job provides the steady income required to buy household goods."
           },
           {
             type: "multiple_choice",
-            question: "Which is NOT a good reason to use your emergency fund?",
+            question: "Which of these is a way an elementary school student might earn a small income?",
             options: [
-              "Buying the latest smartphone",
-              "Unexpected medical bills",
-              "Car repairs",
-              "Job loss"
+              "Doing extra chores around the house",
+              "Watching television all afternoon",
+              "Leaving their toys on the floor",
+              "Sleeping late on Saturday morning"
             ],
             correct: 0,
-            explanation: "Emergency funds are for true emergencies, not wants. New phones can wait!"
+            explanation: "Helping out at home with extra chores is a classic way for kids to earn allowance money."
           },
           {
             type: "true_false",
-            question: "You should start building an emergency fund even if you can only save small amounts.",
-            correct: true,
-            explanation: "Every dollar counts! Small consistent contributions add up over time."
+            question: "Every single job pays the exact same amount of money.",
+            correct: false,
+            explanation: "False! Different jobs have different pay rates depending on the tasks and training involved."
           }
         ]
       }
@@ -411,107 +312,107 @@ export const units = [
   },
   {
     id: "unit-4",
-    title: "Investing Basics",
-    description: "Start your investment journey",
+    title: "The Marketplace",
+    description: "Explore how stores and trading work",
     color: "from-amber-400 to-amber-600",
     lessons: [
       {
         id: "4-1",
-        title: "Stocks & Bonds",
-        studyBrief: "When you buy a stock, you are purchasing a small ownership stake in a company — you become a 'shareholder.' If the company does well, your shares rise in value and you may receive dividends (a share of profits). Bonds are different: buying a bond means you are lending money to a company or government, and they pay you back with interest. Bonds are generally less risky but offer lower returns than stocks. Spreading investments across both stocks and bonds is called diversification.",
+        title: "Buyers and Sellers",
+        studyBrief: "A market is any place where people gather to buy and sell things. A 'buyer' is a customer who gives money to get a good or a service. A 'seller' is a shopkeeper or worker who provides the item and takes the money. For example, at a farmers' market, you are the buyer looking for fresh strawberries, and the farmer is the seller. Both people leave the market happy because they exchanged things they valued!",
         questions: [
           {
             type: "multiple_choice",
-            question: "What does buying a stock represent?",
+            question: "Who is a buyer at a store?",
             options: [
-              "Owning a small piece of a company",
-              "Lending money to a company",
-              "Buying a company's products",
-              "Getting a guaranteed return"
+              "The customer who pays money for an item",
+              "The person who works the cash register",
+              "The security guard at the front door",
+              "The truck driver delivery worker"
             ],
             correct: 0,
-            explanation: "When you buy stock, you become a partial owner (shareholder) of that company."
+            explanation: "The buyer is the consumer spending money to acquire an object or service."
           },
           {
             type: "true_false",
-            question: "Bonds are generally considered less risky than stocks.",
-            correct: true,
-            explanation: "Bonds are debt instruments with fixed returns, making them typically less volatile than stocks."
+            question: "A seller's job is to give away store items completely for free.",
+            correct: false,
+            explanation: "False! Sellers trade their goods or services in exchange for money."
           },
           {
             type: "word_bank",
-            question: "Stocks offer ___ potential returns but also carry ___ risk compared to bonds.",
-            blanks: ["higher", "higher"],
-            options: ["higher", "higher", "lower", "zero", "guaranteed"],
-            explanation: "The risk-return tradeoff: stocks can earn more but are less predictable than bonds."
+            question: "The ___ gives money to the ___ to get a new item.",
+            blanks: ["buyer", "seller"],
+            options: ["buyer", "seller", "teacher", "banker", "doctor"],
+            explanation: "A transaction requires a buyer spending currency and a seller trading inventory."
           },
           {
             type: "multiple_choice",
-            question: "What is a dividend?",
+            question: "Which place is an example of a marketplace?",
             options: [
-              "A share of company profits paid to stockholders",
-              "A type of tax",
-              "A bank fee",
-              "Interest on a bond"
+              "A local grocery store",
+              "An empty playground park",
+              "Your bedroom closet",
+              "A dark forest trail"
             ],
             correct: 0,
-            explanation: "Dividends are portions of profits that companies distribute to their shareholders."
+            explanation: "A grocery store is a classic marketplace full of buyers and active sellers."
           },
           {
             type: "true_false",
-            question: "Diversification means putting all your money in one stock.",
-            correct: false,
-            explanation: "Diversification is the opposite — spreading investments across many assets to reduce risk."
+            question: "When a trade is fair, both the buyer and the seller are happy.",
+            correct: true,
+            explanation: "True! Both sides get something they want: the buyer gets a product, the seller gets money."
           }
         ]
       },
       {
         id: "4-2",
-        title: "Risk & Return",
-        studyBrief: "The Risk-Return Tradeoff is a core investing principle: investments with higher potential returns always carry higher risk. 'Risk tolerance' is your personal comfort level with the possibility of losing money. Young investors can typically afford higher risk because they have more time to recover from market downturns. Diversification — spreading investments across different asset types — is the main tool for managing risk. Government bonds offer the lowest risk, while individual stocks, crypto, and startups carry the highest.",
+        title: "Prices & Scarcity",
+        studyBrief: "Have you ever wondered why some things cost more than others? A 'price' is the amount of money you must pay to buy something. If an item is rare or hard to make, it has 'scarcity,' which means there isn't enough of it for everyone. When a toy becomes super popular but the store only has three left, the price often goes up. If the store has thousands of copies of that same toy, the price usually drops because it is easy to get.",
         questions: [
           {
             type: "multiple_choice",
-            question: "What does 'risk tolerance' mean?",
+            question: "What does it mean if a popular toy is scarce?",
             options: [
-              "How much financial risk you're comfortable with",
-              "The maximum money you can lose",
-              "A type of insurance",
-              "Government risk regulations"
+              "There are not enough copies for everyone who wants one",
+              "The toy is radioactive or dangerous",
+              "The toy is completely free for all children",
+              "The toy is made out of pure gold metals"
             ],
             correct: 0,
-            explanation: "Risk tolerance is your personal comfort level with the possibility of losing money."
+            explanation: "Scarcity means an item is rare or limited, so it is harder to find and buy."
           },
           {
             type: "true_false",
-            question: "Higher potential returns always come with higher risk.",
-            correct: true,
-            explanation: "This is a fundamental principle of investing — the risk-return tradeoff."
+            question: "When an item is very easy to find everywhere, its price usually goes up.",
+            correct: false,
+            explanation: "False! When items are abundant and easy to find, prices generally stay lower."
           },
           {
             type: "word_bank",
-            question: "Diversification helps ___ risk by spreading investments across different ___.",
-            blanks: ["reduce", "assets"],
-            options: ["reduce", "increase", "assets", "banks", "countries"],
-            explanation: "Don't put all your eggs in one basket — diversify across asset types."
+            question: "A ___ tells you how much ___ you need to buy a specific toy.",
+            blanks: ["price", "money"],
+            options: ["price", "money", "tag", "time", "coupon"],
+            explanation: "The price tag indicates the amount of financial currency needed to complete a buy."
           },
           {
             type: "multiple_choice",
-            question: "Which investment typically has the lowest risk?",
+            question: "Why might a rare, beautiful diamond cost more than a common smooth pebble?",
             options: [
-              "Government bonds",
-              "Cryptocurrency",
-              "Individual stocks",
-              "Startup investments"
+              "Because diamonds are scarce and hard to find",
+              "Because pebbles look much better in jewelry",
+              "Because pebbles are illegal to hold",
+              "Because diamonds are much softer than dirt"
             ],
             correct: 0,
-            explanation: "Government bonds are backed by the government, making them among the safest investments."
+            explanation: "Rare items that are highly desired have high value and high prices due to scarcity."
           },
           {
             type: "true_false",
-            question: "Young investors can generally afford to take more risk because they have more time to recover from losses.",
+            question: "Scarcity forces people to make choices about what they want to buy.",
             correct: true,
-            explanation: "A longer time horizon means more time to ride out market ups and downs."
+            explanation: "True! Since we cannot have everything we want, we have to choose carefully."
           }
         ]
       }
