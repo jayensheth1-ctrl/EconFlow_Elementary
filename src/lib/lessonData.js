@@ -14,10 +14,10 @@ export const units = [
             type: "multiple_choice",
             question: "What do people use money for today?",
             options: [
-              "To buy the things they need and want",
-              "To play board games only",
-              "To replace food completely",
-              "To decorate their bedrooms"
+              "To buy things they need and want",
+              "To give allowances to their kids",
+              "To invest in the stock market",
+              "To pay taxes to the US Government"
             ],
             correct: 0,
             explanation: "Money is a helpful tool that we use to buy goods and services every day."
@@ -61,8 +61,8 @@ export const units = [
             options: [
               "Clean drinking water",
               "A new video game console",
-              "A trip to an amusement park",
-              "A chocolate candy bar"
+              "An electronic device",
+              "Luxury clothing"
             ],
             correct: 0,
             explanation: "Water is necessary for your body to stay alive and healthy, making it a true need."
@@ -70,7 +70,7 @@ export const units = [
           {
             type: "multiple_choice",
             question: "Which item is considered a personal want?",
-            options: ["A toy racecar", "Warm clothes for winter", "A safe home", "Healthy dinner"],
+            options: ["A toy racecar", "A stable lifestyle", "A safe home", "Healthy dinner"],
             correct: 0,
             explanation: "A toy is fun to play with, but you can live safely and happily without it."
           },
@@ -116,8 +116,8 @@ export const units = [
             options: [
               "Keeping your money to use later",
               "Spending all your coins today",
-              "Throwing your bills away",
-              "Losing your wallet on purpose"
+              "Borrowing money from others",
+              "Not paying your taxes"
             ],
             correct: 0,
             explanation: "Saving means pausing and protecting your money so you can use it in the future."
@@ -132,7 +132,7 @@ export const units = [
             type: "word_bank",
             question: "Instead of spending money today, you can ___ it for the ___.",
             blanks: ["save", "future"],
-            options: ["save", "future", "lose", "yesterday", "forget"],
+            options: ["save", "future", "lose", "yesterday", "use"],
             explanation: "Saving means looking ahead and preparing your money for future goals."
           },
           {
@@ -141,7 +141,7 @@ export const units = [
             options: [
               "To buy a bigger item later, like a bicycle",
               "Because they hate toys",
-              "To make their wallet as heavy as possible",
+              "To ignore their basic needs",
               "Because banks require you to store all cash"
             ],
             correct: 0,
@@ -165,7 +165,7 @@ export const units = [
             question: "What are the three jars used for in this budgeting rule?",
             options: [
               "Spend, Save, and Give",
-              "Eat, Sleep, and Play",
+              "Need, Want, and Tax",
               "Buy, Hide, and Lose",
               "Coins, Bills, and Buttons"
             ],
@@ -181,7 +181,7 @@ export const units = [
           {
             type: "multiple_choice",
             question: "If you want to buy a bicycle next year, which jar should get the most money?",
-            options: ["The Save jar", "The Spend jar", "The Give jar", "The Trash jar"],
+            options: ["The Save jar", "The Spend jar", "The Give jar", "The Want jar"],
             correct: 0,
             explanation: "Big items that take a long time to afford belong in your long-term Save jar."
           },
@@ -189,7 +189,7 @@ export const units = [
             type: "word_bank",
             question: "The ___ jar is for small treats today, while the ___ jar is for helping your community.",
             blanks: ["Spend", "Give"],
-            options: ["Spend", "Give", "Save", "Hide", "Break"],
+            options: ["Spend", "Give", "Save", "Hide", "Need"],
             explanation: "Spending handles immediate desires, while giving focuses on kindness to others."
           },
           {
@@ -243,9 +243,9 @@ export const units = [
             question: "What is a service?",
             options: [
               "An action or job someone does to help you",
-              "Something you throw in the trash",
+              "A chore you are forced to do",
               "A physical object like a toy box",
-              "A metal coin worth five cents"
+              "A type of tax you pay"
             ],
             correct: 0,
             explanation: "Services are tasks performed by individuals utilizing their time and skills to help others."
@@ -269,8 +269,8 @@ export const units = [
             options: [
               "The money you receive for doing a job",
               "A list of things you want to buy",
-              "The cost of a toy at the store",
-              "A bank account password"
+              "The specfic cost of something you want to buy",
+              "A tax that is applied to your salary"
             ],
             correct: 0,
             explanation: "Income is the money flowing into your pocket as a reward for your labor or job."
@@ -283,9 +283,9 @@ export const units = [
           },
           {
             type: "word_bank",
-            question: "People choose a ___ to earn an ___ to support their families.",
+            question: "People work a ___ to earn an ___ that supports their families.",
             blanks: ["job", "income"],
-            options: ["job", "income", "game", "allowance", "expense"],
+            options: ["job", "income", "tax", "allowance", "expense"],
             explanation: "Working a regular job provides the steady income required to buy household goods."
           },
           {
@@ -293,9 +293,9 @@ export const units = [
             question: "Which of these is a way an elementary school student might earn a small income?",
             options: [
               "Doing extra chores around the house",
-              "Watching television all afternoon",
-              "Leaving their toys on the floor",
-              "Sleeping late on Saturday morning"
+              "Becoming an Uber driver",
+              "Trading in the cryptocurrency market",
+              "Working the nightly shift at a local factory"
             ],
             correct: 0,
             explanation: "Helping out at home with extra chores is a classic way for kids to earn allowance money."
@@ -327,8 +327,8 @@ export const units = [
             options: [
               "The customer who pays money for an item",
               "The person who works the cash register",
-              "The security guard at the front door",
-              "The truck driver delivery worker"
+              "The worker who manages finances",
+              "The workers who deliver inventory"
             ],
             correct: 0,
             explanation: "The buyer is the consumer spending money to acquire an object or service."
@@ -341,9 +341,9 @@ export const units = [
           },
           {
             type: "word_bank",
-            question: "The ___ gives money to the ___ to get a new item.",
+            question: "The ___ gives money to the ___ to get a new item or service.",
             blanks: ["buyer", "seller"],
-            options: ["buyer", "seller", "teacher", "banker", "doctor"],
+            options: ["buyer", "seller", "manager", "banker", "company"],
             explanation: "A transaction requires a buyer spending currency and a seller trading inventory."
           },
           {
@@ -351,9 +351,9 @@ export const units = [
             question: "Which place is an example of a marketplace?",
             options: [
               "A local grocery store",
-              "An empty playground park",
-              "Your bedroom closet",
-              "A dark forest trail"
+              "A magazine that you read",
+              "Netflix",
+              "A school you go to"
             ],
             correct: 0,
             explanation: "A grocery store is a classic marketplace full of buyers and active sellers."
@@ -376,9 +376,9 @@ export const units = [
             question: "What does it mean if a popular toy is scarce?",
             options: [
               "There are not enough copies for everyone who wants one",
-              "The toy is radioactive or dangerous",
-              "The toy is completely free for all children",
-              "The toy is made out of pure gold metals"
+              "The toy is dangerous for children to use",
+              "The toy is too expensive for people to buy",
+              "There are too many toys with not enough people buying them"
             ],
             correct: 0,
             explanation: "Scarcity means an item is rare or limited, so it is harder to find and buy."
@@ -402,8 +402,8 @@ export const units = [
             options: [
               "Because diamonds are scarce and hard to find",
               "Because pebbles look much better in jewelry",
-              "Because pebbles are illegal to hold",
-              "Because diamonds are much softer than dirt"
+              "Because pebbles are formed deep in the earth, whereas diamonds are easier to find",
+              "Because pebbles are used to operate machinery, but diamonds are useless"
             ],
             correct: 0,
             explanation: "Rare items that are highly desired have high value and high prices due to scarcity."

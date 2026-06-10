@@ -16,9 +16,9 @@ export const part2Units = [
             question: "Why do different countries trade with one another?",
             options: [
               "Because no single country can make everything it needs efficiently",
-              "Because they want to trade all of their money away for free",
-              "To see who can build the tallest toy tower",
-              "Because they are required to share all of their toys by law"
+              "Because they want to trade all of their money to tax other countries",
+              "Because every country has a different population, so thier citizens need different things",
+              "Because they are required to share all of their resources by law"
             ],
             correct: 0,
             explanation: "Different countries have different climates, resources, and skills, so trading lets everyone share their strengths."
@@ -32,7 +32,7 @@ export const part2Units = [
           {
             type: "multiple_choice",
             question: "If a country sells a box of fresh apples to another country across the ocean, what is that apple box called?",
-            options: ["An export", "An import", "A chore", "A bank vault"],
+            options: ["An export", "An import", "A money transfer", "A check"],
             correct: 0,
             explanation: "An export is any good or product that is made in your home country and sold to people living in another country."
           },
@@ -40,7 +40,7 @@ export const part2Units = [
             type: "word_bank",
             question: "When we sell items to other nations we ___ them, and when we buy items from other nations we ___ them.",
             blanks: ["export", "import"],
-            options: ["export", "import", "hide", "lose", "borrow"],
+            options: ["export", "import", "give", "eat", "borrow"],
             explanation: "Exporting means sending goods out of a country, while importing means bringing goods into a country."
           },
           {
@@ -61,8 +61,8 @@ export const part2Units = [
             question: "What is a currency exchange rate?",
             options: [
               "The price of one country's money measured in another country's money",
-              "The speed at which a bank clerk counts coins",
-              "A penalty fee for dropping your wallet",
+              "How easy it is to count money from another country",
+              "The rate at which money is transferred",
               "The total weight of a copper coin"
             ],
             correct: 0,
@@ -70,18 +70,18 @@ export const part2Units = [
           },
           {
             type: "true_false",
-            question: "Every single country in the whole world uses the exact same dollar bill.",
+            question: "Every single country in the whole world uses the exact same currency.",
             correct: false,
-            explanation: "False! Different countries use their own distinct currencies, like Euros, Yen, Pesos, or Pounds."
+            explanation: "False! Different countries use their own distinct currencies, like Dollars, Euros, Yen, Pesos, or Pounds."
           },
           {
             type: "multiple_choice",
-            question: "If your home currency becomes stronger before a family vacation abroad, what happens?",
+            question: "If your home currency becomes stronger before a vacation, what happens?",
             options: [
               "Your money can buy more foreign goods and travel becomes cheaper!",
-              "Your money becomes completely useless at the hotel",
-              "The foreign country will confiscate your wallet",
-              "Your paper bills will physically grow larger in size"
+              "Your money buys less good, so travel becomes more expensive",
+              "The foreign country will charge extra money to tourists",
+              "Your paper bills will be converted into copper coins"
             ],
             correct: 0,
             explanation: "A stronger currency gives you more buying power, meaning you get more foreign money in exchange for your bills."
@@ -110,10 +110,10 @@ export const part2Units = [
             type: "multiple_choice",
             question: "What is a tariff?",
             options: [
-              "A special tax placed on goods brought in from another country",
-              "A prize given to the best shopper in a store",
-              "A type of map used by delivery ships",
-              "A machine that prints shiny gold coins"
+              "A tax placed on goods from another country",
+              "A tax on goods that are given to other countries",
+              "A specific ocean route to bring goods from one country to another",
+              "A type of currency that is valuable in all countries"
             ],
             correct: 0,
             explanation: "Tariffs are extra fees added to imports to make them cost more, helping domestic businesses compete."
@@ -129,9 +129,9 @@ export const part2Units = [
             question: "Why might a government decide to put a tariff on foreign toys?",
             options: [
               "To make foreign toys cost more so people buy local toys instead",
-              "To make all toys completely free for school children",
+              "To make all toys cheaper for children in the local country",
               "Because they want to ban toys from the country entirely",
-              "To change the color of the toy boxes"
+              "To get more money from other contries to get richer"
             ],
             correct: 0,
             explanation: "Making imports more expensive pushes shoppers to look at choices made by neighborhood or domestic workers."
@@ -162,101 +162,101 @@ export const part2Units = [
     lessons: [
       {
         id: "6-1",
-        title: "Money on Computers",
-        studyBrief: "Think about how your family pays for things at the grocery store. They might not use paper cash or metal coins at all! Instead, they might use a plastic card or tap a smartphone. Digital finance means tracking and moving money using safe computer networks. One new technology is called a blockchain. A blockchain is like a digital notebook or ledger shared across thousands of computers all over the world. It keeps a permanent record of who owns what, making it very secure and difficult for anyone to alter or cheat.",
+        title: "Paying with Computers",
+        studyBrief: "Think about how your family pays for things at the grocery store. They might not use paper cash or metal coins at all! Instead, they might use a plastic card, tap a smartphone, or click a button online. This is called digital payment. Instead of counting paper bills, computers talk to each other to move money from your family's bank account to the store's bank account. It happens instantly and safely behind the scenes, making shopping much faster because you do not have to carry around heavy bags of coins!",
         questions: [
           {
             type: "multiple_choice",
-            question: "What is a blockchain?",
+            question: "What is a digital payment?",
             options: [
-              "A secure digital ledger shared across many computers to record ownership",
-              "A heavy metal lock used to guard a bank door",
-              "A computer video game about building block towers",
-              "A digital calculator that only adds prime numbers"
+              "Using computers, cards, or phones to pay for things",
+              "Purchasing items using with coins and bills",
+              "Trading your paper money directly for goods at the store",
+              "Exchanging money in your bank account with paper bills"
             ],
             correct: 0,
-            explanation: "Blockchain works like a public, digital record keeper that keeps transactions safe without needing one central bank."
+            explanation: "Digital payments use technology like credit cards, tapping phones, or online clicks to move money electronically."
           },
           {
             type: "true_false",
             question: "Digital money allows people to buy things without using physical paper bills.",
             correct: true,
-            explanation: "True! Credit cards, phone apps, and online banking are all ways we use digital money every day."
+            explanation: "True! Plastic cards, phone apps, and online shopping are all ways we use digital money every day."
           },
           {
             type: "word_bank",
-            question: "Blockchain technology acts like a digital ___ that cannot be easily ___.",
-            blanks: ["ledger", "changed"],
-            options: ["ledger", "changed", "coin", "lost", "spent"],
-            explanation: "A blockchain creates a permanent record (ledger) that is incredibly hard to modify or falsify."
+            question: "Digital payments use safe computer ___ to move money from your bank to the ___.",
+            blanks: ["networks", "store"],
+            options: ["networks", "store", "house", "checks", "bank account"],
+            explanation: "Computers use secure electronic networks to send money safely from your bank account right to the shop."
           },
           {
             type: "multiple_choice",
-            question: "What makes digital banking helpful for families?",
+            question: "What makes digital payments helpful for families?",
             options: [
-              "It lets them pay for things quickly and safely without carrying piles of cash",
-              "It makes all items at the store instantly free",
-              "It automatically cleans their bedroom for them",
-              "It turns paper dollar bills into shiny gold medals"
+              "It lets them pay for things quickly and safely",
+              "It makes all items purchased have a reduced price",
+              "It allows families to grow their money through investing",
+              "It causes more data breaches and hacking"
             ],
             correct: 0,
-            explanation: "Digital money is convenient because it moves electronically between accounts in seconds."
+            explanation: "Digital money is convenient because it moves electronically in seconds, so you don't need a heavy wallet."
           },
           {
             type: "true_false",
-            question: "Once a transaction is safely verified on a blockchain ledger, it can be easily erased by anyone.",
+            question: "When you tap a phone to pay, paper dollars go through the air into the cash register.",
             correct: false,
-            explanation: "False! The design of a blockchain makes its history permanent and secure against tampering."
+            explanation: "False! No physical money moves. The computers just send a safe digital message to change the numbers in the accounts."
           }
         ]
       },
       {
         id: "6-2",
-        title: "Digital Collectibles & Tokens",
-        studyBrief: "Have you ever collected physical items, like baseball cards, comic books, or unique toys? A token is a digital item that lives on a secure computer network. Some tokens are unique and cannot be replaced by an identical copy—just like a one-of-a-kind drawing you made yourself! Technology now allows artists and creators to make digital certificates that prove who owns a specific digital drawing, song, or virtual game item. This proves true digital ownership, even if other people can look at a copy of the picture on their screen.",
+        title: "Money in Video Games & Apps",
+        studyBrief: "Have you ever played a video game where you collect gold coins, gems, or tokens to buy a cool new outfit or tool for your character? That is a type of digital currency! Just like real money, digital game tokens have value inside the game because players agree they are useful. You can earn them by playing or buy them using real money. Many smartphone apps and websites use their own virtual points or tokens to let users unlock special features, trade items with friends, or buy digital prizes!",
         questions: [
           {
             type: "multiple_choice",
-            question: "What does it mean if a digital token is unique?",
+            question: "What is an example of a digital game currency?",
             options: [
-              "It is one-of-a-kind and cannot be swapped for an identical copy",
-              "It can be duplicated a million times by any user",
-              "It is completely invisible on a computer screen",
-              "It can only be bought using old metal coins"
+              "coins or gems used to buy an outfit inside a video game",
+              "A piggy bank kept in your bedroom",
+              "Paper money you use to buy lunch and snacks at school",
+              "A library card used to borrow books"
             ],
             correct: 0,
-            explanation: "Unique digital tokens represent distinct items, much like an original painting is different from a printed poster."
+            explanation: "Game tokens, coins, and gems are digital currencies that only exist inside the computer world."
           },
           {
             type: "true_false",
-            question: "Technology can be used to prove who truly owns a specific digital artwork.",
-            correct: true,
-            explanation: "True! Digital tokens act like official, secure certificates of authenticity on a computer network."
+            question: "Virtual game coins can be used to buy a real items at local stores.",
+            correct: false,
+            explanation: "False! Virtual game money usually only works inside that specific game to buy virtual items."
           },
           {
             type: "word_bank",
-            question: "A digital certificate proves who ___ a unique item, even if others copy the ___.",
-            blanks: ["owns", "image"],
-            options: ["owns", "image", "makes", "price", "game"],
-            explanation: "Anyone can look at or save a digital image copy, but the token proves who the official owner is."
+            question: "Inside a video game, players use digital ___ to buy special ___ for their characters and games.",
+            blanks: ["tokens", "items"],
+            options: ["tokens", "items", "credit cards", "shoes", "animals"],
+            explanation: "Players spend virtual tokens to get fun digital items like outfits, tools, or upgrades inside the game world."
           },
           {
             type: "multiple_choice",
-            question: "Which of these is an example of something that can be tracked as a digital token?",
+            question: "Why do digital game coins have value to players?",
             options: [
-              "A special virtual item or outfit inside a video game",
-              "A real physical bicycle parked in your garage",
-              "A wooden pencil sitting on your classroom desk",
-              "A slice of pepperoni pizza on your dinner plate"
+              "Because they are useful for unlocking fun things in the game",
+              "Because they can be exchanged for real cash",
+              "Because the President of the country prints them on paper",
+              "Because they can be used to keep track of expenses"
             ],
             correct: 0,
-            explanation: "Virtual items inside digital environments are perfect examples of electronic properties tracked by tokens."
+            explanation: "Game money works because the players agree it has value for trading and getting cool game rewards."
           },
           {
             type: "true_false",
-            question: "The prices of digital collectibles are always completely safe, stable, and never change.",
-            correct: false,
-            explanation: "False! The value of collectibles can go up or down very fast depending on how popular they are."
+            question: "You can sometimes use real money to buy digital tokens inside your favorite apps.",
+            correct: true,
+            explanation: "True! Many apps let adults use real digital banking to add virtual coins or gems to a game account."
           }
         ]
       },
@@ -270,9 +270,9 @@ export const part2Units = [
             question: "Why must you keep your digital passwords and keys secret?",
             options: [
               "To prevent others from accessing your digital wallet and taking your items",
-              "Because passwords are illegal to say out loud",
-              "To make sure your computer screen stays bright",
-              "So your friends don't find out your favorite color"
+              "To follow local government laws about internet use",
+              "To prevent your device from running out of battery power",
+              "To allow customer support agents to access your account during an emergency"
             ],
             correct: 0,
             explanation: "Keeping your private keys secret ensures that only you have permission to manage or spend your digital funds."
@@ -294,10 +294,10 @@ export const part2Units = [
             type: "multiple_choice",
             question: "What is a smart habit for staying safe when using digital tools?",
             options: [
-              "Never sharing your private passwords or safety keys with anyone",
-              "Writing your master password on your school textbook cover",
-              "Clicking on every flashing link or pop-up ad you see",
-              "Letting strangers borrow your electronic device unsupervised"
+              "Never sharing your passwords or keys with anyone",
+              "Writing your password on your notebook so you remember",
+              "Sharing your digital wallet information with close family",
+              "Leaving your laptop or phone unlocked when you walk away in public"
             ],
             correct: 0,
             explanation: "Protecting your access keys is the number one rule of digital financial safety."
@@ -311,11 +311,11 @@ export const part2Units = [
         ]
       }
     ]
-  },
+  }
   {
     id: "unit-7",
     title: "Taxes & The Government",
-    description: "Learn how communities pool their money to build big things",
+    description: "Learn how communities pool their money to build new things",
     color: "from-amber-500 to-red-600",
     part2: true,
     lessons: [
@@ -328,13 +328,13 @@ export const part2Units = [
             type: "multiple_choice",
             question: "What are taxes used for?",
             options: [
-              "To fund public services like schools, roads, parks, and libraries",
-              "To give shopkeepers free candy rewards",
-              "To buy video games for government workers",
-              "To replace all paper money with gold coins"
+              "To fund public services",
+              "To make sure the government turns a profit every year",
+              "To give cash bonuses to all registered voters",
+              "To encourage spending money at local stores"
             ],
             correct: 0,
-            explanation: "Taxes are pooled community funds that pay for public infrastructure and services that benefit everyone."
+            explanation: "Taxes are pooled community funds that pay for public infrastructure and services that benefit everyone like schools, roads, parks, and libraries."
           },
           {
             type: "true_false",
@@ -346,16 +346,16 @@ export const part2Units = [
             type: "word_bank",
             question: "Income tax is paid from the money you ___, while sales tax is paid when you ___ things.",
             blanks: ["earn", "buy"],
-            options: ["earn", "buy", "lose", "save", "find"],
+            options: ["earn", "buy", "lose", "save", "donate"],
             explanation: "Income taxes apply to paycheck earnings, whereas sales taxes apply to store transactions."
           },
           {
             type: "multiple_choice",
             question: "Which of the following is a public service paid for by community taxes?",
             options: [
-              "The local fire department and neighborhood parks",
-              "A private toy box inside your bedroom",
-              "Your personal birthday party cake",
+              "The local fire station and public town playgrounds",
+              "Private security cameras for people that own homes",
+              "Delivery fees for online shopping",
               "A new streaming subscription on your home television"
             ],
             correct: 0,
@@ -363,7 +363,7 @@ export const part2Units = [
           },
           {
             type: "true_false",
-            question: "Paying taxes is completely optional, and citizens only pay if they feel like it.",
+            question: "Paying taxes is often optional, and citizens only pay if they want to help out.",
             correct: false,
             explanation: "False! Taxes are mandatory payments required by law to make sure our towns have the steady funds needed to operate."
           }
@@ -378,13 +378,13 @@ export const part2Units = [
             type: "multiple_choice",
             question: "What is a government budget?",
             options: [
-              "A plan that decides how to distribute and spend tax money",
-              "A giant vault where all silver coins are locked up",
-              "A list of all the rules in an elementary school",
-              "A special coupon that makes groceries cheaper"
+              "A plan that decides how to spend tax money",
+              "A giant bank account that government money is kept in",
+              "A list of all the laws in the city",
+              "An outline listing trades with other countries"
             ],
             correct: 0,
-            explanation: "A budget ensures that the government allocates its incoming money responsibly toward different public needs."
+            explanation: "A budget ensures that the government allocates its money responsibly toward different public needs."
           },
           {
             type: "true_false",
@@ -429,9 +429,9 @@ export const part2Units = [
             question: "What is inflation?",
             options: [
               "A general rise in the prices of everyday items over time",
-              "The act of blowing up a colorful birthday balloon",
-              "A type of bank account that gives away free cash",
-              "The weight of printed paper money bills"
+              "The decrease in the prices of everyday items over time",
+              "A high tax on certain items that are rare",
+              "The exchange rate of certain countries frequently changing"
             ],
             correct: 0,
             explanation: "Inflation means your money loses a bit of its purchasing power because goods and services become more expensive."
@@ -446,20 +446,8 @@ export const part2Units = [
             type: "word_bank",
             question: "When prices rise quickly it is called ___, and the ___ bank tries to fix it.",
             blanks: ["inflation", "central"],
-            options: ["inflation", "central", "taxation", "local", "piggy"],
+            options: ["inflation", "central", "taxation", "local", "deflation"],
             explanation: "Inflation represents climbing market prices, which central banks manage using monetary tools."
-          },
-          {
-            type: "multiple_choice",
-            question: "What tool can a central bank use to encourage people to save more money instead of spending it?",
-            options: [
-              "They can raise interest rates to make borrowing more expensive",
-              "They can change the color of all five-dollar bills",
-              "They can close down every grocery store in town",
-              "They can order everyone to stay home from work"
-            ],
-            correct: 0,
-            explanation: "Higher interest rates reward savers with more interest and make loans costlier, which slows down rapid spending."
           },
           {
             type: "true_false",
