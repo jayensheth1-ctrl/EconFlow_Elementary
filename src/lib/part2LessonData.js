@@ -307,11 +307,11 @@ export const part2Units = [
             question: "Digital money can be lost if a computer network or platform experiences a security hack.",
             correct: true,
             explanation: "True! Because tech systems can face errors or security risks, users must be cautious with digital assets."
-          }
+         }
         ]
       }
     ]
-  }
+  },
   {
     id: "unit-7",
     title: "Taxes & The Government",
